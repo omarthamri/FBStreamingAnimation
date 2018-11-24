@@ -15,6 +15,7 @@
 		76DEA91921A72CC2007B8F09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76DEA91721A72CC2007B8F09 /* LaunchScreen.storyboard */; };
 		76DEA92421A72CC2007B8F09 /* FBStreamingAnimationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DEA92321A72CC2007B8F09 /* FBStreamingAnimationTests.swift */; };
 		76DEA92F21A72CC2007B8F09 /* FBStreamingAnimationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76DEA92E21A72CC2007B8F09 /* FBStreamingAnimationUITests.swift */; };
+		76DEA93D21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		76DEA92A21A72CC2007B8F09 /* FBStreamingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBStreamingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DEA92E21A72CC2007B8F09 /* FBStreamingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBStreamingAnimationUITests.swift; sourceTree = "<group>"; };
 		76DEA93021A72CC2007B8F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-excuses-best-motivational-video.mp4"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		76DEA90A21A72CC2007B8F09 /* FBStreamingAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */,
 				76DEA90B21A72CC2007B8F09 /* AppDelegate.swift */,
 				76DEA90D21A72CC2007B8F09 /* ViewController.swift */,
 				76DEA90F21A72CC2007B8F09 /* Main.storyboard */,
@@ -237,6 +240,7 @@
 			files = (
 				76DEA91921A72CC2007B8F09 /* LaunchScreen.storyboard in Resources */,
 				76DEA91621A72CC2007B8F09 /* Assets.xcassets in Resources */,
+				76DEA93D21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 in Resources */,
 				76DEA91121A72CC2007B8F09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
