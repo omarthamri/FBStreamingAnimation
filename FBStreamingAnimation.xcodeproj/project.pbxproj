@@ -50,7 +50,7 @@
 		76DEA92A21A72CC2007B8F09 /* FBStreamingAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FBStreamingAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		76DEA92E21A72CC2007B8F09 /* FBStreamingAnimationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FBStreamingAnimationUITests.swift; sourceTree = "<group>"; };
 		76DEA93021A72CC2007B8F09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "no-excuses-best-motivational-video.mp4"; sourceTree = SOURCE_ROOT; };
+		76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = "no-excuses-best-motivational-video.mp4"; path = "FBStreamingAnimation/Media/no-excuses-best-motivational-video.mp4"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +78,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		76208AAF21AA11A90034E80C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76DEA90D21A72CC2007B8F09 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		76208AB021AA11CA0034E80C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				76DEA90F21A72CC2007B8F09 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		76208AB121AA11DC0034E80C /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */,
+			);
+			path = Media;
+			sourceTree = "<group>";
+		};
 		76DEA8FF21A72CC2007B8F09 = {
 			isa = PBXGroup;
 			children = (
@@ -101,10 +125,10 @@
 		76DEA90A21A72CC2007B8F09 /* FBStreamingAnimation */ = {
 			isa = PBXGroup;
 			children = (
-				76DEA93C21A73340007B8F09 /* no-excuses-best-motivational-video.mp4 */,
+				76208AB121AA11DC0034E80C /* Media */,
+				76208AB021AA11CA0034E80C /* Views */,
+				76208AAF21AA11A90034E80C /* Controllers */,
 				76DEA90B21A72CC2007B8F09 /* AppDelegate.swift */,
-				76DEA90D21A72CC2007B8F09 /* ViewController.swift */,
-				76DEA90F21A72CC2007B8F09 /* Main.storyboard */,
 				76DEA91521A72CC2007B8F09 /* Assets.xcassets */,
 				76DEA91721A72CC2007B8F09 /* LaunchScreen.storyboard */,
 				76DEA91A21A72CC2007B8F09 /* Info.plist */,
